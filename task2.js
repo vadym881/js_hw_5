@@ -1,10 +1,10 @@
 function isPalindrome(str) {
   const reversedString = str.split("").reverse().join("");
   if (str === reversedString) {
-    return `Слово "${str}" є паліндромом`;
+    return `String "${str}" is palindrome`;
   } else {
-    return `Слово "${str}" не є паліндромом`;
+    return `String "${str}" is not palindrome`;
   }
 }
-const userInput = prompt("Введіть щось");
+const userInput = prompt("Enter a word");
 console.log(isPalindrome(userInput));
