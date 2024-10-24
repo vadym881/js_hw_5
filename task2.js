@@ -6,5 +6,5 @@ function isPalindrome(str) {
     return `String "${str}" is not palindrome`;
   }
 }
-const userInput = prompt("Enter a word");
-console.log(isPalindrome(userInput));
+const inputString = prompt("Enter a word");
+console.log(isPalindrome(inputString));
